@@ -1,0 +1,48 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    max-width: 220px; /* Ancho máximo del contenedor */
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%); /* Color de fondo del contenedor */
+    border-radius: 15px;
+}
+
+.card{
+    text-align: center;
+    margin-top: 155px;
+    padding: 10px;
+}
+
+.card_img{
+    width: 197px;
+    height: 197px;
+    border-radius: 7px;
+    
+}
+
+.card_title,
+.card_paragraph{
+    font-family: 'Outfit', sans-serif;
+}
+
+.card_title{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.card_paragraph{
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 12.2px;
+color: hsl(220, 15%, 55%)
+}
+
+.attribution{
+
+    margin-top: 220px;
+
+}
